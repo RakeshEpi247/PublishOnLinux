@@ -654,6 +654,7 @@
       },
       "ExtensionManager.Entities/1.0.0": {
         "dependencies": {
+          "ExtensionManager.Utilities": "1.0.0",
           "Microsoft.Extensions.Identity.Stores": "6.0.11"
         },
         "runtime": {
@@ -664,7 +665,8 @@
         "dependencies": {
           "ExtensionManager.Entities": "1.0.0",
           "ExtensionManager.Models": "1.0.0",
-          "ExtensionManager.Utilities": "1.0.0"
+          "ExtensionManager.Utilities": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "ExtensionManager.Factories.dll": {}
@@ -694,6 +696,9 @@
         }
       },
       "ExtensionManager.Models/1.0.0": {
+        "dependencies": {
+          "ExtensionManager.Utilities": "1.0.0"
+        },
         "runtime": {
           "ExtensionManager.Models.dll": {}
         }
